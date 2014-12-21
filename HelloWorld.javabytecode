@@ -1,0 +1,156 @@
+Classfile /home/umare/codes/umare2014/HelloWorld.class
+  Last modified Dec 21, 2014; size 937 bytes
+  MD5 checksum aba2d6805509ea2ff62a2361bc851a5f
+  Compiled from "HelloWorld.java"
+class HelloWorld
+  SourceFile: "HelloWorld.java"
+  minor version: 0
+  major version: 51
+  flags: ACC_SUPER
+Constant pool:
+   #1 = Methodref          #19.#28        //  java/lang/Object."<init>":()V
+   #2 = Methodref          #29.#30        //  java/util/Calendar.getInstance:()Ljava/util/Calendar;
+   #3 = Methodref          #29.#31        //  java/util/Calendar.get:(I)I
+   #4 = Methodref          #32.#33        //  java/lang/String.valueOf:(I)Ljava/lang/String;
+   #5 = Class              #34            //  java/lang/StringBuilder
+   #6 = Methodref          #5.#28         //  java/lang/StringBuilder."<init>":()V
+   #7 = String             #35            //  --from UMARE 
+   #8 = Methodref          #5.#36         //  java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+   #9 = Methodref          #5.#37         //  java/lang/StringBuilder.toString:()Ljava/lang/String;
+  #10 = String             #38            //  
+  #11 = Methodref          #5.#39         //  java/lang/StringBuilder."<init>":(Ljava/lang/String;)V
+  #12 = String             #40            //  Hello
+  #13 = String             #41            //  World
+  #14 = String             #42            //  !
+  #15 = String             #43            //   
+  #16 = Fieldref           #44.#45        //  java/lang/System.out:Ljava/io/PrintStream;
+  #17 = Methodref          #46.#47        //  java/io/PrintStream.println:(Ljava/lang/Object;)V
+  #18 = Class              #48            //  HelloWorld
+  #19 = Class              #49            //  java/lang/Object
+  #20 = Utf8               <init>
+  #21 = Utf8               ()V
+  #22 = Utf8               Code
+  #23 = Utf8               LineNumberTable
+  #24 = Utf8               main
+  #25 = Utf8               ([Ljava/lang/String;)V
+  #26 = Utf8               SourceFile
+  #27 = Utf8               HelloWorld.java
+  #28 = NameAndType        #20:#21        //  "<init>":()V
+  #29 = Class              #50            //  java/util/Calendar
+  #30 = NameAndType        #51:#52        //  getInstance:()Ljava/util/Calendar;
+  #31 = NameAndType        #53:#54        //  get:(I)I
+  #32 = Class              #55            //  java/lang/String
+  #33 = NameAndType        #56:#57        //  valueOf:(I)Ljava/lang/String;
+  #34 = Utf8               java/lang/StringBuilder
+  #35 = Utf8               --from UMARE 
+  #36 = NameAndType        #58:#59        //  append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  #37 = NameAndType        #60:#61        //  toString:()Ljava/lang/String;
+  #38 = Utf8               
+  #39 = NameAndType        #20:#62        //  "<init>":(Ljava/lang/String;)V
+  #40 = Utf8               Hello
+  #41 = Utf8               World
+  #42 = Utf8               !
+  #43 = Utf8                
+  #44 = Class              #63            //  java/lang/System
+  #45 = NameAndType        #64:#65        //  out:Ljava/io/PrintStream;
+  #46 = Class              #66            //  java/io/PrintStream
+  #47 = NameAndType        #67:#68        //  println:(Ljava/lang/Object;)V
+  #48 = Utf8               HelloWorld
+  #49 = Utf8               java/lang/Object
+  #50 = Utf8               java/util/Calendar
+  #51 = Utf8               getInstance
+  #52 = Utf8               ()Ljava/util/Calendar;
+  #53 = Utf8               get
+  #54 = Utf8               (I)I
+  #55 = Utf8               java/lang/String
+  #56 = Utf8               valueOf
+  #57 = Utf8               (I)Ljava/lang/String;
+  #58 = Utf8               append
+  #59 = Utf8               (Ljava/lang/String;)Ljava/lang/StringBuilder;
+  #60 = Utf8               toString
+  #61 = Utf8               ()Ljava/lang/String;
+  #62 = Utf8               (Ljava/lang/String;)V
+  #63 = Utf8               java/lang/System
+  #64 = Utf8               out
+  #65 = Utf8               Ljava/io/PrintStream;
+  #66 = Utf8               java/io/PrintStream
+  #67 = Utf8               println
+  #68 = Utf8               (Ljava/lang/Object;)V
+{
+  HelloWorld();
+    Signature: ()V
+    flags: 
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0       
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: return        
+      LineNumberTable:
+        line 3: 0
+
+  public static void main(java.lang.String[]);
+    Signature: ([Ljava/lang/String;)V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=3, locals=6, args_size=1
+         0: invokestatic  #2                  // Method java/util/Calendar.getInstance:()Ljava/util/Calendar;
+         3: astore_1      
+         4: aload_1       
+         5: iconst_1      
+         6: invokevirtual #3                  // Method java/util/Calendar.get:(I)I
+         9: istore_2      
+        10: iload_2       
+        11: invokestatic  #4                  // Method java/lang/String.valueOf:(I)Ljava/lang/String;
+        14: astore_3      
+        15: new           #5                  // class java/lang/StringBuilder
+        18: dup           
+        19: invokespecial #6                  // Method java/lang/StringBuilder."<init>":()V
+        22: ldc           #7                  // String --from UMARE 
+        24: invokevirtual #8                  // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+        27: aload_3       
+        28: invokevirtual #8                  // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+        31: invokevirtual #9                  // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+        34: astore        4
+        36: new           #5                  // class java/lang/StringBuilder
+        39: dup           
+        40: ldc           #10                 // String 
+        42: invokespecial #11                 // Method java/lang/StringBuilder."<init>":(Ljava/lang/String;)V
+        45: astore        5
+        47: aload         5
+        49: ldc           #12                 // String Hello
+        51: invokevirtual #8                  // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+        54: pop           
+        55: aload         5
+        57: ldc           #13                 // String World
+        59: invokevirtual #8                  // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+        62: pop           
+        63: aload         5
+        65: ldc           #14                 // String !
+        67: invokevirtual #8                  // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+        70: pop           
+        71: aload         5
+        73: ldc           #15                 // String  
+        75: invokevirtual #8                  // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+        78: pop           
+        79: aload         5
+        81: aload         4
+        83: invokevirtual #8                  // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+        86: pop           
+        87: getstatic     #16                 // Field java/lang/System.out:Ljava/io/PrintStream;
+        90: aload         5
+        92: invokevirtual #17                 // Method java/io/PrintStream.println:(Ljava/lang/Object;)V
+        95: return        
+      LineNumberTable:
+        line 16: 0
+        line 17: 4
+        line 18: 10
+        line 19: 15
+        line 21: 36
+        line 22: 47
+        line 23: 55
+        line 24: 63
+        line 25: 71
+        line 26: 79
+        line 28: 87
+        line 29: 95
+}
