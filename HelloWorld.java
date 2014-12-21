@@ -11,20 +11,14 @@ class HelloWorld
     // umare@umare:~/codes/umare2014$ java HelloWorld 
     // Hello world! --from UMARE 2014
 
-    //03 - Using StringBuilder
-    
-    Calendar now   = Calendar.getInstance();
-    int yearInt    = now.get(Calendar.YEAR);
-    String yearStr = String.valueOf(yearInt); 
-    String footer  = "--from UMARE " + yearStr;
+    //04 - Using Array
+    String[] footerArray = { "Hello World!", " ", "--from UMARE 2014" } ;
 
-    StringBuilder lineStrB = new StringBuilder("");
-    lineStrB.append("Hello");
-    lineStrB.append("World");
-    lineStrB.append("!");
-    lineStrB.append(" ");
-    lineStrB.append(footer);
-    
-    System.out.println(lineStrB);
+    String footer = "";
+    for( String each_string: footerArray )
+    {
+      footer += each_string;
+    }
+    System.out.println(footer);
   }
 }
