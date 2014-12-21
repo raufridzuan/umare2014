@@ -17,7 +17,7 @@ class HelloWorld
     String yearStr = String.valueOf(yearInt); 
     String footer  = "--from UMARE " + yearStr;
     
-    System.out.println("Hello world! --from UMARE " + yearStr); 
+    System.out.println("Hello world! --from UMARE " + yearStr);  
     
   }
 }
