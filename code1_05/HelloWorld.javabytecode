@@ -1,0 +1,277 @@
+Classfile /home/umare/codes/umare2014/HelloWorld.class
+  Last modified Dec 21, 2014; size 1073 bytes
+  MD5 checksum 54f71c1f4b3df2ed7656beacc33b5c08
+  Compiled from "HelloWorld.java"
+class HelloWorld
+  SourceFile: "HelloWorld.java"
+  minor version: 0
+  major version: 51
+  flags: ACC_SUPER
+Constant pool:
+   #1 = Methodref          #11.#25        //  java/lang/Object."<init>":()V
+   #2 = Methodref          #26.#27        //  java/util/Calendar.getInstance:()Ljava/util/Calendar;
+   #3 = Methodref          #26.#28        //  java/util/Calendar.get:(I)I
+   #4 = Class              #29            //  java/lang/StringBuilder
+   #5 = Methodref          #4.#25         //  java/lang/StringBuilder."<init>":()V
+   #6 = Methodref          #30.#31        //  java/lang/Character.toString:(C)Ljava/lang/String;
+   #7 = Methodref          #4.#32         //  java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+   #8 = Fieldref           #33.#34        //  java/lang/System.out:Ljava/io/PrintStream;
+   #9 = Methodref          #35.#36        //  java/io/PrintStream.println:(Ljava/lang/Object;)V
+  #10 = Class              #37            //  HelloWorld
+  #11 = Class              #38            //  java/lang/Object
+  #12 = Utf8               <init>
+  #13 = Utf8               ()V
+  #14 = Utf8               Code
+  #15 = Utf8               LineNumberTable
+  #16 = Utf8               main
+  #17 = Utf8               ([Ljava/lang/String;)V
+  #18 = Utf8               StackMapTable
+  #19 = Class              #39            //  "[Ljava/lang/String;"
+  #20 = Class              #40            //  "[I"
+  #21 = Class              #41            //  java/util/Calendar
+  #22 = Class              #29            //  java/lang/StringBuilder
+  #23 = Utf8               SourceFile
+  #24 = Utf8               HelloWorld.java
+  #25 = NameAndType        #12:#13        //  "<init>":()V
+  #26 = Class              #41            //  java/util/Calendar
+  #27 = NameAndType        #42:#43        //  getInstance:()Ljava/util/Calendar;
+  #28 = NameAndType        #44:#45        //  get:(I)I
+  #29 = Utf8               java/lang/StringBuilder
+  #30 = Class              #46            //  java/lang/Character
+  #31 = NameAndType        #47:#48        //  toString:(C)Ljava/lang/String;
+  #32 = NameAndType        #49:#50        //  append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  #33 = Class              #51            //  java/lang/System
+  #34 = NameAndType        #52:#53        //  out:Ljava/io/PrintStream;
+  #35 = Class              #54            //  java/io/PrintStream
+  #36 = NameAndType        #55:#56        //  println:(Ljava/lang/Object;)V
+  #37 = Utf8               HelloWorld
+  #38 = Utf8               java/lang/Object
+  #39 = Utf8               [Ljava/lang/String;
+  #40 = Utf8               [I
+  #41 = Utf8               java/util/Calendar
+  #42 = Utf8               getInstance
+  #43 = Utf8               ()Ljava/util/Calendar;
+  #44 = Utf8               get
+  #45 = Utf8               (I)I
+  #46 = Utf8               java/lang/Character
+  #47 = Utf8               toString
+  #48 = Utf8               (C)Ljava/lang/String;
+  #49 = Utf8               append
+  #50 = Utf8               (Ljava/lang/String;)Ljava/lang/StringBuilder;
+  #51 = Utf8               java/lang/System
+  #52 = Utf8               out
+  #53 = Utf8               Ljava/io/PrintStream;
+  #54 = Utf8               java/io/PrintStream
+  #55 = Utf8               println
+  #56 = Utf8               (Ljava/lang/Object;)V
+{
+  HelloWorld();
+    Signature: ()V
+    flags: 
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0       
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: return        
+      LineNumberTable:
+        line 3: 0
+
+  public static void main(java.lang.String[]);
+    Signature: ([Ljava/lang/String;)V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=4, locals=13, args_size=1
+         0: bipush        30
+         2: newarray       int
+         4: dup           
+         5: iconst_0      
+         6: bipush        9
+         8: iastore       
+         9: dup           
+        10: iconst_1      
+        11: bipush        36
+        13: iastore       
+        14: dup           
+        15: iconst_2      
+        16: bipush        45
+        18: iastore       
+        19: dup           
+        20: iconst_3      
+        21: bipush        45
+        23: iastore       
+        24: dup           
+        25: iconst_4      
+        26: bipush        46
+        28: iastore       
+        29: dup           
+        30: iconst_5      
+        31: bipush        97
+        33: iastore       
+        34: dup           
+        35: bipush        6
+        37: bipush        22
+        39: iastore       
+        40: dup           
+        41: bipush        7
+        43: bipush        46
+        45: iastore       
+        46: dup           
+        47: bipush        8
+        49: bipush        51
+        51: iastore       
+        52: dup           
+        53: bipush        9
+        55: bipush        45
+        57: iastore       
+        58: dup           
+        59: bipush        10
+        61: bipush        37
+        63: iastore       
+        64: dup           
+        65: bipush        11
+        67: bipush        96
+        69: iastore       
+        70: dup           
+        71: bipush        12
+        73: bipush        97
+        75: iastore       
+        76: dup           
+        77: bipush        13
+        79: bipush        108
+        81: iastore       
+        82: dup           
+        83: bipush        14
+        85: bipush        108
+        87: iastore       
+        88: dup           
+        89: bipush        15
+        91: bipush        39
+        93: iastore       
+        94: dup           
+        95: bipush        16
+        97: bipush        51
+        99: iastore       
+       100: dup           
+       101: bipush        17
+       103: bipush        46
+       105: iastore       
+       106: dup           
+       107: bipush        18
+       109: bipush        44
+       111: iastore       
+       112: dup           
+       113: bipush        19
+       115: bipush        97
+       117: iastore       
+       118: dup           
+       119: bipush        20
+       121: bipush        20
+       123: iastore       
+       124: dup           
+       125: bipush        21
+       127: bipush        12
+       129: iastore       
+       130: dup           
+       131: bipush        22
+       133: iconst_0      
+       134: iastore       
+       135: dup           
+       136: bipush        23
+       138: bipush        19
+       140: iastore       
+       141: dup           
+       142: bipush        24
+       144: iconst_4      
+       145: iastore       
+       146: dup           
+       147: bipush        25
+       149: bipush        97
+       151: iastore       
+       152: dup           
+       153: bipush        26
+       155: bipush        115
+       157: iastore       
+       158: dup           
+       159: bipush        27
+       161: bipush        113
+       163: iastore       
+       164: dup           
+       165: bipush        28
+       167: bipush        112
+       169: iastore       
+       170: dup           
+       171: bipush        29
+       173: bipush        117
+       175: iastore       
+       176: astore_1      
+       177: sipush        1949
+       180: istore_2      
+       181: invokestatic  #2                  // Method java/util/Calendar.getInstance:()Ljava/util/Calendar;
+       184: astore_3      
+       185: aload_3       
+       186: iconst_1      
+       187: invokevirtual #3                  // Method java/util/Calendar.get:(I)I
+       190: istore        4
+       192: iload         4
+       194: iload_2       
+       195: isub          
+       196: istore        5
+       198: new           #4                  // class java/lang/StringBuilder
+       201: dup           
+       202: invokespecial #5                  // Method java/lang/StringBuilder."<init>":()V
+       205: astore        6
+       207: aload_1       
+       208: astore        7
+       210: aload         7
+       212: arraylength   
+       213: istore        8
+       215: iconst_0      
+       216: istore        9
+       218: iload         9
+       220: iload         8
+       222: if_icmpge     261
+       225: aload         7
+       227: iload         9
+       229: iaload        
+       230: istore        10
+       232: iload         10
+       234: iload         5
+       236: ixor          
+       237: istore        11
+       239: iload         11
+       241: i2c           
+       242: istore        12
+       244: aload         6
+       246: iload         12
+       248: invokestatic  #6                  // Method java/lang/Character.toString:(C)Ljava/lang/String;
+       251: invokevirtual #7                  // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+       254: pop           
+       255: iinc          9, 1
+       258: goto          218
+       261: getstatic     #8                  // Field java/lang/System.out:Ljava/io/PrintStream;
+       264: aload         6
+       266: invokevirtual #9                  // Method java/io/PrintStream.println:(Ljava/lang/Object;)V
+       269: return        
+      LineNumberTable:
+        line 15: 0
+        line 17: 177
+        line 18: 181
+        line 19: 185
+        line 21: 192
+        line 23: 198
+        line 24: 207
+        line 26: 232
+        line 27: 239
+        line 28: 244
+        line 24: 255
+        line 30: 261
+        line 31: 269
+      StackMapTable: number_of_entries = 2
+           frame_type = 255 /* full_frame */
+          offset_delta = 218
+          locals = [ class "[Ljava/lang/String;", class "[I", int, class java/util/Calendar, int, int, class java/lang/StringBuilder, class "[I", int, int ]
+          stack = []
+           frame_type = 248 /* chop */
+          offset_delta = 42
+
+}
